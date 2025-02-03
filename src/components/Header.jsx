@@ -4,9 +4,9 @@ const Header = () => {
     return (
         <header className="w-2/12 h-screen p-4 border-r">
             <a href="/">
-                <img 
-                    src={logo} 
-                    alt="Arrais Veículos" 
+                <img
+                    src={logo}
+                    alt="Arrais Veículos"
                     className="m-auto"
                 />
             </a>
@@ -21,5 +21,5 @@ const Header = () => {
         </header>
     );
 }
- 
+
 export default Header;
